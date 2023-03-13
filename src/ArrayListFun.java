@@ -47,6 +47,17 @@ public class ArrayListFun {
         System.out.println(integerList);
         System.out.println("The size of the list is: " + integerList.size());
 
+        //mixed type ArrayList
+        ArrayList mixedTypes = new ArrayList();
+        mixedTypes.add(7);
+        mixedTypes.add("Bob");
+        System.out.println(mixedTypes);
+
+        ArrayList<Object> mixedTypes2 = new ArrayList<Object>();
+        mixedTypes2.add("Jane");
+        mixedTypes2.add(278.38);
+        System.out.println(mixedTypes2);
+
 
 
     }
